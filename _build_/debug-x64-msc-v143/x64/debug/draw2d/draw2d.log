@@ -1,0 +1,7 @@
+﻿  draw.cpp
+  surface.cpp
+C:\Users\hhm91\Desktop\올빼미\myGithub\AdvantureOfSperm\draw2d\draw.cpp(43,59): warning C4244: 'argument': conversion from 'float' to 'Surface::Index', possible loss of data
+C:\Users\hhm91\Desktop\올빼미\myGithub\AdvantureOfSperm\draw2d\draw.cpp(46,27): warning C4244: 'argument': conversion from 'float' to 'Surface::Index', possible loss of data
+C:\Users\hhm91\Desktop\올빼미\myGithub\AdvantureOfSperm\draw2d\draw.cpp(49,59): warning C4244: 'argument': conversion from 'float' to 'Surface::Index', possible loss of data
+C:\Users\hhm91\Desktop\올빼미\myGithub\AdvantureOfSperm\draw2d\draw.cpp(52,27): warning C4244: 'argument': conversion from 'float' to 'Surface::Index', possible loss of data
+  draw2d.vcxproj -> C:\Users\hhm91\Desktop\올빼미\myGithub\AdvantureOfSperm\lib\draw2d-debug-x64-msc-v143.lib
