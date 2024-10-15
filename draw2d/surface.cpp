@@ -33,7 +33,16 @@ Surface& Surface::operator=( Surface&& aOther ) noexcept
 
 void Surface::clear() noexcept
 {
-	std::memset( mSurface, 0, sizeof(std::uint8_t)*mWidth*mHeight*4 );
+	//std::memset( mSurface, 0, sizeof(std::uint8_t)*mWidth*mHeight*4 ); // all black 
+	
+	for (int y = 0; y < mHeight; ++y) {
+		for (int x = 0; x < mWidth; ++x) {
+			mSurface[(y * mWidth + x) * 4 + 0] = 255; // red
+			mSurface[(y * mWidth + x) * 4 + 1] = 182; // green
+			mSurface[(y * mWidth + x) * 4 + 2] = 193; // blue
+			mSurface[(y * mWidth + x) * 4 + 3] = 255; // alpha
+		}
+	}
 }
 
 void Surface::fill( ColorU8_sRGB aColor ) noexcept
